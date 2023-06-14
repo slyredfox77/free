@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Freedom Screech Inu Coin</title>
+    <style>
+       /* Add CSS styles for both desktop and mobile here */
+/* Add CSS styles for both desktop and mobile here */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #003893; /* American flag blue */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+}
+
+header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.flag-header {
+    background-image: url("flag.png");
+    background-size: 100% 200%;
+    background-position: top;
+    height: 100%;
+    animation: waving-flag 3s infinite linear;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.eagle img {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: flying-eagle 10s infinite linear;
+}
+
+/* Rest of the CSS code remains the same */
+
+
+        @keyframes waving-flag {
+            0% {
+                background-position: top;
+            }
+            50% {
+                background-position: bottom;
+            }
+            100% {
+                background-position: top;
+            }
+        }
+
+        @keyframes flying-eagle {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: calc(100% - 200px);
+                transform: scaleX(-1);
+            }
+            100% {
+                left: 0;
+            }
+        }
+
+        nav {
+            background-color: #b22234;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #800000;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            background-color: #b22234;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #800000;
+        }
+
+        .team-member {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .team-member img {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="flag-header"></div>
+        <div class="logo">
+            <h1>Freedom Screech Inu Coin</h1>
+        </div>
+        <div class="eagle">
+            <img src="eagle.png" alt="Eagle">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#whitepaper">Whitepaper</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Freedom Screech Inu Coin</h2>
+        <p>Join us in our mission to revolutionize the financial landscape and empower individuals worldwide.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Freedom Screech Inu Coin</h2>
+        <p>Freedom Screech Inu Coin is a decentralized cryptocurrency that combines the power of blockchain technology with a focus on promoting freedom and privacy.</p>
+        <p>Our goal is to create a secure and transparent financial ecosystem that empowers individuals to take control of their wealth and bypass traditional centralized systems.</p>
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="team.jpeg" alt="Team Member 1">
+            <h3>Eric Warhammer</h3>
+            <p>DEV</p>
+        </div>
+        <div class="team-member">
+            <img src="team2.jpeg" alt="Team Member 2">
+            <h3>Kayla Rodrigo</h3>
+            <p>Marketing</p>
+        </div>
+    </section>
+
+    <section id="whitepaper">
+        <h2>Read Our Whitepaper</h2>
+        <p>Download our whitepaper to learn more about the technology behind Freedom Screech Inu Coin, our vision, and the roadmap for the future.</p>
+        <a href="whitepaper.pdf" target="_blank" class="cta-button">Download Whitepaper</a>
+    </section>
+
+    <section id="roadmap">
+        <h2>Our Roadmap</h2>
+        <p>Check out our roadmap to see our planned milestones and the progress we have made so far.</p>
+    </section>
+
+    <section id="tokenomics">
+        <h2>Tokenomics</h2>
+        <p>Learn about the token distribution and economics of Freedom Screech Inu Coin.</p>
+    </section>
+
+    <section id="news">
+        <h2>Latest News</h2>
+        <p>Stay updated with the latest news and updates about Freedom Screech Inu Coin.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or partnership opportunities.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Freedom Screech Inu Coin. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript code can be added here for any additional functionality or interactivity
+    </script>
+</body>
+</html>
