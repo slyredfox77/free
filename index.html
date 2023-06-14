@@ -12,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
 }
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
 
 h1, h2, h3 {
     font-family: 'Arial Black', sans-serif;
@@ -52,7 +51,19 @@ header {
     animation: flying-eagle 10s infinite linear;
 }
 
-/* Rest of the CSS code remains the same */
+.btn-get-started {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b22234;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-get-started:hover {
+    background-color: #800000;
+}
 
 
         @keyframes waving-flag {
@@ -218,18 +229,10 @@ header {
     <h2>Contact Us</h2>
     <p>Connect with us on social media:</p>
     <div class="social-links">
-        <a href="https://telegram.com/FreedomScreech" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-telegram"></i>
-        </a>
-        <a href="https://twitter.com/FreedomScreech_" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://chart" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-chart-bar"></i>
-        </a>
-        <a href="https://buy" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-shopping-cart"></i>
-        </a>
+        <a href="https://telegram.com/freedomscreech" target="_blank" rel="noopener noreferrer" class="btn-get-started">Telegram</a>
+        <a href="https://twitter.com/freedomscreech_" target="_blank" rel="noopener noreferrer" class="btn-get-started">Twitter</a>
+        <a href="https://chart" target="_blank" rel="noopener noreferrer" class="btn-get-started">Chart</a>
+        <a href="https://buy" target="_blank" rel="noopener noreferrer" class="btn-get-started">Buy</a>
     </div>
 </section>
 
