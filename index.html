@@ -240,7 +240,7 @@ header {
     </div>
 </section>
 <marquee id="scroll" scrollamount="4">
-    freedom
+    Freedom!
     <audio controls="" id="music" autoplay="" class="audioplayer" name="media">
         <source src="Freedom.mp3" type="audio/mpeg">
     </audio>
@@ -250,5 +250,13 @@ header {
     <footer>
         <p>&copy; 2023 Freedom Screech Coin. All rights reserved.</p>
     </footer>
+    <script>
+    document.addEventListener('click', function() { 
+        let audio = document.getElementById('music');
+        audio.volume = 0.2;
+        audio.play() },
+        { once: true });
+
+    </script>
 </body>
 </html>
